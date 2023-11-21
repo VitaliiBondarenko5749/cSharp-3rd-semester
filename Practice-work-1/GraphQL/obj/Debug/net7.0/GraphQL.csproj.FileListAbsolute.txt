@@ -1,0 +1,182 @@
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\appsettings.Development.json
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\appsettings.json
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GraphQL.exe
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GraphQL.deps.json
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GraphQL.runtimeconfig.json
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GraphQL.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GraphQL.pdb
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Humanizer.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\System.CodeDom.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.csproj.AssemblyReference.cache
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.AssemblyInfoInputs.cache
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.AssemblyInfo.cs
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.csproj.CoreCompileInputs.cache
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.GraphQL.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.build.GraphQL.props
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GraphQL.props
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.GraphQL.props
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets.build.json
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\staticwebassets.development.json
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\scopedcss\bundle\GraphQL.styles.css
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.csproj.CopyComplete
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.dll
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\refint\GraphQL.dll
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.pdb
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\GraphQL.genruntimeconfig.cache
+D:\Projects\3rd semester\GraphQL\obj\Debug\net7.0\ref\GraphQL.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\BananaCakePop.Middleware.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\GreenDonut.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Abstractions.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.AspNetCore.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Authorization.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Execution.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Execution.Abstractions.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Fetching.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Language.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Language.SyntaxTree.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Utf8.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Visitors.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Web.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Subscriptions.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Subscriptions.InMemory.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Transport.Sockets.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Types.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Types.CursorPagination.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Types.Mutations.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Types.OffsetPagination.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Types.Scalars.Upload.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Utilities.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Utilities.Introspection.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\HotChocolate.Validation.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\System.IO.Hashing.dll
+D:\Projects\3rd semester\GraphQL\bin\Debug\net7.0\Yarp.ReverseProxy.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\appsettings.Development.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\appsettings.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GraphQL.exe
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GraphQL.deps.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GraphQL.runtimeconfig.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GraphQL.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GraphQL.pdb
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\BananaCakePop.Middleware.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\GreenDonut.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Abstractions.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.AspNetCore.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Authorization.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Execution.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Execution.Abstractions.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Fetching.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Language.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Language.SyntaxTree.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Utf8.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Visitors.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Language.Web.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Subscriptions.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Subscriptions.InMemory.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Transport.Sockets.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Types.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Types.CursorPagination.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Types.Mutations.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Types.OffsetPagination.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Types.Scalars.Upload.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Utilities.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Utilities.Introspection.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\HotChocolate.Validation.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Humanizer.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\System.CodeDom.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\System.IO.Hashing.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\Yarp.ReverseProxy.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.csproj.AssemblyReference.cache
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.AssemblyInfoInputs.cache
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.AssemblyInfo.cs
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.csproj.CoreCompileInputs.cache
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.MvcApplicationPartsAssemblyInfo.cache
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.GraphQL.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.build.GraphQL.props
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GraphQL.props
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.GraphQL.props
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets.build.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\staticwebassets.development.json
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\scopedcss\bundle\GraphQL.styles.css
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.csproj.CopyComplete
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\refint\GraphQL.dll
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.pdb
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\GraphQL.genruntimeconfig.cache
+D:\Repositories\cSharp-3rd-semester\cSharp-3rd-semester\Practice-work-1\GraphQL\obj\Debug\net7.0\ref\GraphQL.dll

@@ -1,13 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ConferencePlanner.GraphQL.Data;
 using ConferencePlanner.GraphQL.DataLoader;
-using HotChocolate;
-using HotChocolate.Resolvers;
-using HotChocolate.Types;
+
+#pragma warning disable
 
 namespace ConferencePlanner.GraphQL.Types
 {
@@ -20,17 +15,17 @@ namespace ConferencePlanner.GraphQL.Types
                 .IdField(t => t.Id)
                 .ResolveNode((ctx, id) =>
                     ctx.DataLoader<TrackByIdDataLoader>().LoadAsync(id, ctx.RequestAborted));
-                    
-            descriptor
-                .Field(t => t.Sessions)
-                .ResolveWith<TrackResolvers>(t => t.GetSessionsAsync(default!, default!, default!, default))
-                .UseDbContext<ApplicationDbContext>()
-                .UsePaging<NonNullType<SessionType>>()
-                .Name("sessions");
 
             descriptor
-                .Field(t => t.Name)
-                .UseUpperCase();
+    .Field(t => t.Sessions)
+    .ResolveWith<TrackResolvers>(t => t.GetSessionsAsync(default!, default!, default!, default))
+    .UseDbContext<ApplicationDbContext>()
+    .UsePaging<NonNullType<SessionType>>()
+    .Name("sessions");
+
+            descriptor
+    .Field(t => t.Name)
+    .UseUpperCase();
         }
 
         private class TrackResolvers

@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,14 +11,14 @@ using HotChocolate.Types.Relay;
 
 namespace ConferencePlanner.GraphQL.Tracks
 {
-    [ExtendObjectType(Name = "Query")]
+    [ExtendObjectType("Query")]
     public class TrackQueries
     {
         [UseApplicationDbContext]
         [UsePaging]
         public IQueryable<Track> GetTracks(
-            [ScopedService] ApplicationDbContext context) =>
-            context.Tracks.OrderBy(t => t.Name);
+    [ScopedService] ApplicationDbContext context) =>
+    context.Tracks.OrderBy(t => t.Name);
 
         [UseApplicationDbContext]
         public Task<Track> GetTrackByNameAsync(

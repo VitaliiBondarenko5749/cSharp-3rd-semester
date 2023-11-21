@@ -1,26 +1,44 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using ConferencePlanner.GraphQL.Data;
+using ConferencePlanner.GraphQL.DataLoader;
+using ConferencePlanner.GraphQL.Sessions;
+using ConferencePlanner.GraphQL.Speakers;
+using ConferencePlanner.GraphQL.Tracks;
+using ConferencePlanner.GraphQL.Types;
+using Microsoft.EntityFrameworkCore;
 
-namespace ConferencePlanner.GraphQL
+#pragma warning disable
+
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddPooledDbContextFactory<ApplicationDbContext>(options => options.UseSqlite("Data Source=conferences.db"));
+
+builder.Services
+     .AddGraphQLServer()
+   .AddQueryType(d => d.Name("Query"))
+      .AddTypeExtension<SpeakerQueries>()
+      .AddTypeExtension<SessionQueries>()
+      .AddTypeExtension<TrackQueries>()
+   .AddMutationType(d => d.Name("Mutation"))
+      .AddTypeExtension<SessionMutations>()
+      .AddTypeExtension<SpeakerMutations>()
+      .AddTypeExtension<TrackMutations>()
+   .AddType<AttendeeType>()
+   .AddType<SessionType>()
+   .AddType<SpeakerType>()
+   .AddType<TrackType>()
+   .EnableRelaySupport()
+   .AddDataLoader<SpeakerByIdDataLoader>()
+   .AddDataLoader<SessionByIdDataLoader>();
+
+WebApplication app = builder.Build();
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+    endpoints.MapGraphQL();
+});
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
-}
+app.MapGet("/", () => "Hello World!");
+
+app.Run();

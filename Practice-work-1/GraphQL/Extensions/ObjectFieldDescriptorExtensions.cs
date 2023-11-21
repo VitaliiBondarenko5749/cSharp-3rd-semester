@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using HotChocolate.Types;
 
@@ -16,7 +16,7 @@ namespace ConferencePlanner.GraphQL
         }
 
         public static IObjectFieldDescriptor UseUpperCase(
-            this IObjectFieldDescriptor descriptor)
+    this IObjectFieldDescriptor descriptor)
         {
             return descriptor.Use(next => async context =>
             {

@@ -1,11 +1,14 @@
+﻿using System.Threading;
 using System.Threading.Tasks;
+using ConferencePlanner.GraphQL.Common;
 using ConferencePlanner.GraphQL.Data;
+using GraphQL.Speakers;
 using HotChocolate;
 using HotChocolate.Types;
 
 namespace ConferencePlanner.GraphQL.Speakers
 {
-    [ExtendObjectType(Name = "Mutation")]
+    [ExtendObjectType("Mutation")]
     public class SpeakerMutations
     {
         [UseApplicationDbContext]

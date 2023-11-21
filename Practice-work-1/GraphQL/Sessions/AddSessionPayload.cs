@@ -1,20 +1,21 @@
-using ConferencePlanner.GraphQL.Common;
+﻿using ConferencePlanner.GraphQL.Common;
 using ConferencePlanner.GraphQL.Data;
 
 namespace ConferencePlanner.GraphQL.Sessions
 {
-    public class AddSessionPayload : Payload
+    public class AddSessionPayload : SessionPayloadBase
     {
-        public AddSessionPayload(Session session)
-        {
-            Session = session;
-        }
-
         public AddSessionPayload(UserError error)
             : base(new[] { error })
         {
         }
 
-        public Session? Session { get; init; }
+        public AddSessionPayload(Session session) : base(session)
+        {
+        }
+
+        public AddSessionPayload(IReadOnlyList<UserError> errors) : base(errors)
+        {
+        }
     }
 }

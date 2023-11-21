@@ -1,4 +1,4 @@
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using ConferencePlanner.GraphQL.Data;
 using HotChocolate;
@@ -6,7 +6,7 @@ using HotChocolate.Types;
 
 namespace ConferencePlanner.GraphQL.Tracks
 {
-    [ExtendObjectType(Name = "Mutation")]
+    [ExtendObjectType("Mutation")]
     public class TrackMutations
     {
         [UseApplicationDbContext]
@@ -25,9 +25,9 @@ namespace ConferencePlanner.GraphQL.Tracks
 
         [UseApplicationDbContext]
         public async Task<RenameTrackPayload> RenameTrackAsync(
-            RenameTrackInput input,
-            [ScopedService] ApplicationDbContext context,
-            CancellationToken cancellationToken)
+    RenameTrackInput input,
+    [ScopedService] ApplicationDbContext context,
+    CancellationToken cancellationToken)
         {
             Track track = await context.Tracks.FindAsync(input.Id);
             track.Name = input.Name;
@@ -36,5 +36,6 @@ namespace ConferencePlanner.GraphQL.Tracks
 
             return new RenameTrackPayload(track);
         }
+        
     }
 }

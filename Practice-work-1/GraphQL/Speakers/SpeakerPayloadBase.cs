@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using ConferencePlanner.GraphQL.Common;
 using ConferencePlanner.GraphQL.Data;
 
@@ -16,6 +16,6 @@ namespace ConferencePlanner.GraphQL.Speakers
         {
         }
 
-        public Speaker? Speaker { get; init; }
+        public Speaker? Speaker { get; }
     }
 }

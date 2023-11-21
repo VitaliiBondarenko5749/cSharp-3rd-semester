@@ -1,4 +1,4 @@
-namespace ConferencePlanner.GraphQL.Data
+﻿namespace ConferencePlanner.GraphQL.Data
 {
     public class SessionSpeaker
     {

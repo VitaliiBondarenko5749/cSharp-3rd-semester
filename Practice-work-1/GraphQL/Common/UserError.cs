@@ -1,4 +1,4 @@
-namespace ConferencePlanner.GraphQL.Common
+﻿namespace ConferencePlanner.GraphQL.Common
 {
     public class UserError
     {

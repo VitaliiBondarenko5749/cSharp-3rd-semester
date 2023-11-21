@@ -1,4 +1,4 @@
-using ConferencePlanner.GraphQL.Data;
+﻿using ConferencePlanner.GraphQL.Data;
 using HotChocolate.Types.Relay;
 
 namespace ConferencePlanner.GraphQL.Tracks

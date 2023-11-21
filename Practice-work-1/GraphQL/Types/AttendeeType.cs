@@ -1,13 +1,9 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using ConferencePlanner.GraphQL.Data;
 using ConferencePlanner.GraphQL.DataLoader;
-using HotChocolate;
-using HotChocolate.Resolvers;
-using HotChocolate.Types;
+
+#pragma warning disable
 
 namespace ConferencePlanner.GraphQL.Types
 {
@@ -35,13 +31,13 @@ namespace ConferencePlanner.GraphQL.Types
                 SessionByIdDataLoader sessionById,
                 CancellationToken cancellationToken)
             {
-                int[] sessionIds = await dbContext.Attendees
+                int[] speakerIds = await dbContext.Attendees
                     .Where(a => a.Id == attendee.Id)
                     .Include(a => a.SessionsAttendees)
                     .SelectMany(a => a.SessionsAttendees.Select(t => t.SessionId))
                     .ToArrayAsync();
 
-                return await sessionById.LoadAsync(sessionIds, cancellationToken);
+                return await sessionById.LoadAsync(speakerIds, cancellationToken);
             }
         }
     }

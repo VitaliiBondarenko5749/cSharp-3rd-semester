@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ConferencePlanner.GraphQL.Data;
 using GreenDonut;
-using HotChocolate.DataLoader;
 
 namespace ConferencePlanner.GraphQL.DataLoader
 {

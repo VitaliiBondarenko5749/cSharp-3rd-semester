@@ -1,12 +1,16 @@
-﻿namespace MediGraph.Common
+﻿using System.Collections.Generic;
+
+#pragma warning disable
+
+namespace MediGraph.Common
 {
     public abstract class Payload
     {
-        protected Payload(IReadOnlyList<Error>? errors = null)
+        protected Payload(IReadOnlyList<UserError>? errors = null)
         {
             Errors = errors;
         }
 
-        public IReadOnlyList<Error>? Errors { get; }
+        public IReadOnlyList<UserError>? Errors { get; }
     }
 }

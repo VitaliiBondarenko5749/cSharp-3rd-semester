@@ -1,5 +1,9 @@
-﻿using MediGraph.Data;
+﻿using HotChocolate;
+using HotChocolate.Types;
+using MediGraph.Data;
 using MediGraph.DataLoader;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace MediGraph.Types
 {

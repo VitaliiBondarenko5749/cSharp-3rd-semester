@@ -1,4 +1,6 @@
-﻿namespace MediGraph.Appointments
+﻿using System;
+
+namespace MediGraph.Appointments
 {
     public record ScheduleAppointmentInput(Guid id, DateTime dateTime);
 }

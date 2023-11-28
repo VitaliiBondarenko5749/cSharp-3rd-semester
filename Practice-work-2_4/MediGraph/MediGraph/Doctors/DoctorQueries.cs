@@ -1,6 +1,14 @@
-﻿using MediGraph.Data;
+﻿using HotChocolate;
+using HotChocolate.Data;
+using HotChocolate.Types;
+using HotChocolate.Types.Relay;
+using MediGraph.Data;
 using MediGraph.DataLoader;
 using MediGraph.Extensions;
+using System;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace MediGraph.Doctors
 {

@@ -1,13 +1,19 @@
-﻿using HotChocolate.Subscriptions;
+﻿using HotChocolate;
+using HotChocolate.Subscriptions;
+using HotChocolate.Types;
+using MediGraph.Common;
 using MediGraph.Data;
 using MediGraph.DataLoader;
 using MediGraph.Extensions;
-using System.Reflection.Metadata.Ecma335;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace MediGraph.Appointments
 {
 #pragma warning disable
-    [ExtendObjectType(Name = "Mutation")]
+    [ExtendObjectType(Name="Mutation")]
 #pragma warning enable
     public class AppointmentMutations
     {
@@ -20,14 +26,14 @@ namespace MediGraph.Appointments
 
             if (doctor is null)
             {
-                return new AddAppointmentPayload(new Common.Error("Doctor's Id was not found in the database!", "NOT_FOUND"));
+                return new AddAppointmentPayload(new UserError("Doctor's Id was not found in the database!", "NOT_FOUND"));
             }
 
             Patient? patient = await patientById.LoadAsync(input.patientId, cancellationToken);
 
             if (patient is null)
             {
-                return new AddAppointmentPayload(new Common.Error("Patient's Id was not found in the database!", "NOT_FOUND"));
+                return new AddAppointmentPayload(new UserError("Patient's Id was not found in the database!", "NOT_FOUND"));
             }
 
             Appointment appointment = new()
@@ -53,7 +59,7 @@ namespace MediGraph.Appointments
 
             if (appointment is null)
             {
-                return new ScheduleAppointmentPayload(new Common.Error("Appointment's id was not found in the database!",
+                return new ScheduleAppointmentPayload(new UserError("Appointment's id was not found in the database!",
                     "NOT_FOUND"));
             }
 

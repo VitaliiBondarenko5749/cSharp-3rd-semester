@@ -1,15 +1,12 @@
-﻿using HotChocolate.Types.Descriptors;
+﻿using HotChocolate.Data;
 using MediGraph.Data;
-using System.Reflection;
 
 namespace MediGraph.Extensions
 {
-    public class UseApplicationDbContextAttribute : ObjectFieldDescriptorAttribute
+    public class UseApplicationDbContextAttribute : UseDbContextAttribute
     {
-        protected override void OnConfigure(IDescriptorContext context, IObjectFieldDescriptor descriptor,
-            MemberInfo member)
+        public UseApplicationDbContextAttribute() : base(typeof(ApplicationDbContext))
         {
-            descriptor.UseDbContext<ApplicationDbContext>();
         }
     }
 }

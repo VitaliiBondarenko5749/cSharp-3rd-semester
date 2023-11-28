@@ -1,4 +1,9 @@
-﻿namespace MediGraph.Data
+﻿using System;
+using System.Collections.Generic;
+
+#pragma warning disable
+
+namespace MediGraph.Data
 {
     public class Patient
     {

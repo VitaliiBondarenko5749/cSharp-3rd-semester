@@ -1,5 +1,8 @@
 ﻿using MediGraph.Common;
 using MediGraph.Data;
+using System.Collections.Generic;
+
+#pragma warning disable
 
 namespace MediGraph.Patients
 {
@@ -10,7 +13,7 @@ namespace MediGraph.Patients
             Patient = patient;
         }
 
-        protected PatientPayloadBase(IReadOnlyList<Common.Error> errors) : base(errors) { }
+        protected PatientPayloadBase(IReadOnlyList<UserError> errors) : base(errors) { }
 
         public Patient? Patient { get; }
     }

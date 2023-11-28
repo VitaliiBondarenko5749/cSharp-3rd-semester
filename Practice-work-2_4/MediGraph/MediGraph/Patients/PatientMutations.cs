@@ -1,8 +1,13 @@
-﻿using HotChocolate.Subscriptions;
+﻿using HotChocolate;
+using HotChocolate.Subscriptions;
+using HotChocolate.Types;
+using MediGraph.Common;
 using MediGraph.Data;
 using MediGraph.DataLoader;
-using MediGraph.Doctors;
 using MediGraph.Extensions;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace MediGraph.Patients
 {
@@ -17,7 +22,7 @@ namespace MediGraph.Patients
         {
             if (string.IsNullOrEmpty(input.firstName) || string.IsNullOrEmpty(input.lastName))
             {
-                return new AddPatientPayload(new Common.Error("Full name is incorrect!", "ERROR_NAME_VALID"));
+                return new AddPatientPayload(new UserError("Full name is incorrect!", "ERROR_NAME_VALID"));
             }
 
             Patient patient = new()
@@ -42,12 +47,12 @@ namespace MediGraph.Patients
 
             if (patient is null)
             {
-                return new SchedulePatientPayload(new Common.Error("Doctor's id was not found in the database", "NOT_FOUND"));
+                return new SchedulePatientPayload(new UserError("Doctor's id was not found in the database", "NOT_FOUND"));
             }
 
             if (string.IsNullOrEmpty(input.firstName) || string.IsNullOrEmpty(input.lastName))
             {
-                return new SchedulePatientPayload(new Common.Error("Full name is incorrect!", "ERROR_NAME_VALID"));
+                return new SchedulePatientPayload(new UserError("Full name is incorrect!", "ERROR_NAME_VALID"));
             }
 
             patient.FirsName = input.firstName;

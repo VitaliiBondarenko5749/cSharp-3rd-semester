@@ -1,6 +1,8 @@
 ﻿using MediGraph.Common;
 using MediGraph.Data;
 
+#pragma warning disable
+
 namespace MediGraph.Appointments
 {
     public class AddAppointmentPayload : Payload
@@ -10,7 +12,7 @@ namespace MediGraph.Appointments
             Appointment = appointment;
         }
 
-        public AddAppointmentPayload(Common.Error error) : base(new[] { error }) 
+        public AddAppointmentPayload(UserError error) : base(new[] { error }) 
         { }
 
         public Appointment? Appointment { get; init; }

@@ -1,4 +1,6 @@
-﻿namespace MediGraph.Data
+﻿using System;
+
+namespace MediGraph.Data
 {
     public class Appointment
     {

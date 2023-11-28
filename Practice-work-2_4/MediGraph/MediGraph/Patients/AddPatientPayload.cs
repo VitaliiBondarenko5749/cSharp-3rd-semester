@@ -1,6 +1,8 @@
 ﻿using MediGraph.Common;
 using MediGraph.Data;
 
+#pragma warning disable
+
 namespace MediGraph.Patients
 {
     public class AddPatientPayload : Payload
@@ -10,7 +12,7 @@ namespace MediGraph.Patients
             Patient = patient;
         }
 
-        public AddPatientPayload(Common.Error error) : base(new[] { error }) 
+        public AddPatientPayload(UserError error) : base(new[] { error }) 
         { }
 
         public Patient? Patient { get; init; }
